@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Product Landing Page</title>
+</head>
+<body>
+
+    <div id="pagina-principal">
+        <header id="header">
+            <div class="logo">
+                <img src="css/img/logo.png" alt="Logo Maestros Parrilleros" id="header-img">
+            </div>
+            <nav id="nav-bar">
+               
+                        <a href="#features" class="nav-link">Caracteristicas</a>  
+                        <a href="#how-it-works" class="nav-link">Cómo Funciona</a>         
+                        <a href="#pricing" class="nav-link">Precios</a>
+            </nav>
+        </header>
+
+        <div class="contenedor-padre">
+            <section class="contenedor-hijo1">
+                <h2>Curso Maestros Parrilleros</h2>
+                <form action="https://www.freecodecamp.com/email-submit" id="form">
+                    <input type="email" name="email" id="email" placeholder="Ingrese por favor un correo" required>
+                    <br>
+                    <input type="submit" name="submit" id="submit" value="Empezar" class="btn">
+                </form>
+            </section>
+
+            <div class="contenedor-hijo2">
+                <section id="features">
+                    <div class="grid">
+                        <div class="icon">
+                            <i class="fa fa-calendar" style="font-size:48px;color:#e6a900"></i>
+                        </div>
+                        <div class="desc">
+                            <h2>Disponibilidad Del Curso</h2>
+                            <p>Tendrás acceso al curso durante el tiempo que quieras, sin necesidad de pagar de mas por el.</p>
+                        </div>
+                    </div>
+
+                    <div class="grid">
+                        <div class="icon">
+                            <i class="fa fa-handshake-o" style="font-size:48px;color:#e6a900"></i>
+                        </div>
+                        <div class="desc">
+                            <h2>Guia Personalizada</h2>
+                            <p>Tenemos a disposición un personal calificado 24/7 por si tienes cualquier duda o solicitar recomendación para esa próxima fiesta que tienes 😉.</p>
+                        </div>
+                    </div>
+
+                    <div class="grid">
+                        <div class="icon">
+                            <i class="fa fa-folder-open" style="font-size:48px;color:#e6a900"></i>
+                        </div>
+                        <div class="desc">
+                            <h2>Cualquier plataforma</h2>
+                            <p>Podrás descargar todo nuestro material en cualquier plataforma y sistema operativo, para que lo puedas llevar a cualquier parte y no perderte de una buena parrillada.</p>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section id="how-it-works">
+                    <iframe  src="https://www.youtube.com/embed/lw9kZCdkXC4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
+                </section>  
+
+                <section id="pricing">
+                    <div class="product" id="principiante">
+                        <div class="div-product">Principiante</div>
+                        <h2>$60</h2>
+                        
+                            <li>Inicio en la parrilla</li>
+                            <li>Herramientas</li>
+                            <li>Cortes basicos</li>
+                            <li>Manejo del asador</li>
+                        
+                        <button class="btn">Seleccionar</button>
+                    </div>
+
+                    <div class="product" id="avanzado">
+                        <div class="div-product">Avanzado</div>
+                        <h2>$80</h2>
+                        
+                            <li>Cortes Premiuns</li>
+                            <li>Maridajes y Sasonamientos</li>
+                            <li>Club privado</li>
+                            <li>Encuentros</li>
+                        
+                        <button class="btn">Seleccionar</button>
+                    </div>
+                    
+                    
+                </section>
+                <footer>
+                    <ul>
+                        <li>Privacidad</li>
+                        <li>Terminos</li>
+                        <li>Contactanos</li>
+                    </ul>
+                    <span>Copyright 2020, Maestros Parrilleros</span>
+                </footer>
+            </div>
+        </div>
+
+    </div>
+
+    
+</body>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
